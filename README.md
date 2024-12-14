@@ -141,7 +141,7 @@ server {
         proxy_pass http://localhost:8080/admin/;
     }
 }
-
+```
 This maps frontend calls to /api/ endpoints to the backend’s /admin/ APIs.
 
 Security and Password Encryption
