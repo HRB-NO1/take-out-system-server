@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Take-Out-System is a catering-focused software solution that includes both a management backend (for restaurant staff) and a frontend experience. The backend portion is responsible for tasks such as employee management, category and dish management, set menu management, orders, data reporting, and basic authentication/authorization. It provides RESTful APIs consumed by both the management dashboard and the user-facing WeChat Mini Program.
+Take-Out-System is a catering-focused software solution that includes both a management backend (for restaurant staff) and a frontend experience. The backend portion is responsible for tasks such as employee management, category and dish management, set menu management, orders, data reporting, and basic authentication/authorization. It provides RESTful APIs consumed by both the management dashboard and the user-facing frontend.
 
 ## Project Overview
 
