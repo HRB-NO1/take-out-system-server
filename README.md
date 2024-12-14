@@ -142,14 +142,38 @@ server {
     }
 }
 ```
-This maps frontend calls to /api/ endpoints to the backend’s /admin/ APIs.
+This maps frontend calls to `/api/` endpoints to the backend’s `/admin/` APIs.
 
-Security and Password Encryption
-Employee passwords are stored as MD5-hashed strings.
-During login, the backend MD5-encrypts the incoming password before comparing it to the stored hash.
-This ensures enhanced security by not storing plain-text passwords.
-API Documentation and Interface Management
-Swagger/Knife4j: Used during development for generating and testing backend APIs.
-YApi (Not required here): Useful during design and team collaboration phases for defining and reviewing APIs.
-Conclusion
-With Sky Take-Out’s backend, developers gain a comprehensive example of a modern, full-featured catering service management system. From API design, database operations, caching, security, and testing, this project offers a complete reference for enterprise-level backend development practices.
+---
+
+### Security and Password Encryption
+
+- **Hashing Passwords with MD5:**  
+  Employee passwords are stored as MD5-hashed strings.
+- **Secure Login Process:**  
+  During login, the backend MD5-encrypts the incoming password before comparing it to the stored hash.
+- **No Plain-Text Storage:**  
+  This ensures enhanced security by not storing plain-text passwords.
+
+---
+
+### API Documentation and Interface Management
+
+- **Swagger/Knife4j:**  
+  Used during development for generating and testing backend APIs.
+- **YApi (Not Required Here):**  
+  Useful during design and team collaboration phases for defining and reviewing APIs.
+
+---
+
+### Conclusion
+
+With Sky Take-Out’s backend, developers gain a comprehensive example of a modern, full-featured catering service management system. This includes:
+
+- **API Design**
+- **Database Operations**
+- **Caching**
+- **Security**
+- **Testing**
+
+All of these combined offer a complete reference for enterprise-level backend development practices.
